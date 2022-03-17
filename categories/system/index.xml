@@ -1,0 +1,11 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>System - Category - ~# SpyF0x_</title><link>https://spyfox.me/categories/system/</link><description>System - Category - ~# SpyF0x_</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://spyfox.me/categories/system/" rel="self" type="application/rss+xml"/><item><title>Void Linux w/ encrypted boot, rootfs and swap on BIOS</title><link>https://spyfox.me/posts/system/linux/tutorials/void-linux-with-encrypted-boot-rootfs-and-swap-on-bios-/</link><pubDate>Sat, 01 Jan 2022 12:00:00 +0000</pubDate><author>Author</author><guid>https://spyfox.me/posts/system/linux/tutorials/void-linux-with-encrypted-boot-rootfs-and-swap-on-bios-/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/images/tutorials/void/encrypted-void0.webp" referrerpolicy="no-referrer">
+            </div>So today, we will see how to properly set up an uncomplicated Void Linux full disk encryption installation on legacy BIOS.
+First things first  In case you&rsquo;re wondering :
+ 1. Why Void Linux ?
+ I&rsquo;ve recently acquired an old laptop, so what&rsquo;s better for this old boi than an ultra lightweight systemd free GNU/Linux distribution ?
+ 2. Why encrypted ?
+ It&rsquo;s a (bad ?) habit I got from work.]]></description></item><item><title>Turn your Linux into a router with a single script</title><link>https://spyfox.me/posts/system/linux/tutorials/turn-your-linux-into-a-router-with-a-single-script/</link><pubDate>Sun, 21 Nov 2021 19:00:00 +0000</pubDate><author>Author</author><guid>https://spyfox.me/posts/system/linux/tutorials/turn-your-linux-into-a-router-with-a-single-script/</guid><description>&lt;div class="featured-image">
+&lt;img src="/images/tutorials/linux-router0.png" referrerpolicy="no-referrer">
+&lt;/div>Want to turn your GNU/Linux machine into a powerful router able to connect to the Internet, to provide you a Wifi hotspot, to act as a transparent proxy or simply to properly route your virtual machines / containers ports ?
+I have some good news for you then ! If you have an old GNU/Linux lying around (e.g. an unused Raspberry Pi), you can easily turn it into a router thanks to Linux-router (lnxrouter).</description></item></channel></rss>

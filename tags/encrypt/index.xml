@@ -1,0 +1,12 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>encrypt - Tag - ~# SpyF0x_</title><link>https://spyfox.me/tags/encrypt/</link><description>encrypt - Tag - ~# SpyF0x_</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://spyfox.me/tags/encrypt/" rel="self" type="application/rss+xml"/><item><title>Void Linux w/ encrypted boot, rootfs and swap on BIOS</title><link>https://spyfox.me/posts/system/linux/tutorials/void-linux-with-encrypted-boot-rootfs-and-swap-on-bios-/</link><pubDate>Sat, 01 Jan 2022 12:00:00 +0000</pubDate><author>Author</author><guid>https://spyfox.me/posts/system/linux/tutorials/void-linux-with-encrypted-boot-rootfs-and-swap-on-bios-/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/images/tutorials/void/encrypted-void0.webp" referrerpolicy="no-referrer">
+            </div>So today, we will see how to properly set up an uncomplicated Void Linux full disk encryption installation on legacy BIOS.
+First things first  In case you&rsquo;re wondering :
+ 1. Why Void Linux ?
+ I&rsquo;ve recently acquired an old laptop, so what&rsquo;s better for this old boi than an ultra lightweight systemd free GNU/Linux distribution ?
+ 2. Why encrypted ?
+ It&rsquo;s a (bad ?) habit I got from work.]]></description></item><item><title>Install Arch Linux UEFI with LUKS encrypted root and swap filesystems</title><link>https://spyfox.me/posts/system/linux/tutorials/install-arch-linux-uefi-with-luks-encrypted-root-and-swap-filesystems/</link><pubDate>Tue, 05 Oct 2021 17:00:00 +0000</pubDate><author>Author</author><guid>https://spyfox.me/posts/system/linux/tutorials/install-arch-linux-uefi-with-luks-encrypted-root-and-swap-filesystems/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/images/tutorials/arch-linux.jpg" referrerpolicy="no-referrer">
+            </div>This method will ensure that your data is encrypted if your device is ever stolen. Nevertheless it might not be sufficient against such &ldquo;CIA driven attacks&rdquo; as the evil-maid or a coldboot attack.
+Before starting  Download the archiso image from https://www.archlinux.org/ and its signature.
+To ensure that the NSA / GCHQ, any other intelligence agency nor hacker has not altered your download, generate the checksum and compare it to the one provided by ARCH Linux or use gpg to ensure your archlinux-*.]]></description></item></channel></rss>
