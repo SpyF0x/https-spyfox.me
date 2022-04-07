@@ -1,19 +1,16 @@
 # About
 
 
-_Nickname_: SpyF0x
+Hello, 
 
-_Profession_ : IT security engineer
+This website is a place where I share my discoveries with you and also serve as a knowledge base ! Feel free to do the same
 
-_Why this blog_ : Being passionate about my work, I force myself to keep a constant technology watch. So, rather than having my browser bookmarks full of tips and tricks about system security, networks or even on how to improve one's privacy, I prefer to formalize all this knowledge into a minimalist blog, faithful to my principles and accessible to everyone. 
+I receive a lot of emails and unfortunately I can't answer to everybody. I apologize in advance. 
 
-_What I like_ : common sense, minimalism, initiatives to improve everyone's life one step at a time.
+Don't forget to read the [disclaimer](/posts/disclaimer)
 
-_What I hate_:
+PS : I will not crack your "lost" passwords and I don't personally do any kind of computer or software troubleshooting 
 
-{{< figure src="/images/about/gafam-about-spyf0x.png" alt="a badly cropped image." >}} 
+See you soon !
 
-_Why SpyFox.me_:
-
-Since I was a child, I've always had an unconditional admiration for spy movies. For the "F0x" it is a mix of my favorite animal (the fox) and hexadecimal (0xFFF)
-
+~SpyF0x

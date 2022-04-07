@@ -35,7 +35,7 @@ First, go to your GitHub account email settings [(here)](https://github.com/sett
 
 {{< admonition warning "Warning" true >}}
 
-If, like me, you have created you created your GitHub account after July 18, 2017, your no-reply email address is a seven-digit ID number and your username in the form of ID+username@users.noreply.github.com. 
+If, like me, you have created your GitHub account after July 18, 2017, your no-reply email address is a seven-digit ID number and your username in the form of ID+username@users.noreply.github.com. 
 
 However, if you created your account prior to July 18, 2017, your no-reply is simply username@users.noreply.github.com. 
 {{< /admonition >}}
